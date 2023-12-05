@@ -707,8 +707,11 @@ input, button{
 }
 
 .review-form-input:focus + .review-form-input-icon {
-    border-color: #4D5AE5; 
     fill: #4D5AE5;
+}
+
+.review-form-input:focus{
+    border-color: #4D5AE5; 
 }
 
 .review-form-input-icon {
