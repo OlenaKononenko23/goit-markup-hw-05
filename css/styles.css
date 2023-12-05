@@ -744,7 +744,7 @@ input, button{
     margin-bottom: 24px;
 }
 
-.review-form-checkbox:checked{
+.review-form-checkbox:checked +.review-form-checkbox-label>.review-form-own-checkbox{
     background-color: var(--color3);
     border: none;
     fill: var(--color1);
