@@ -528,6 +528,7 @@ input, button{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position: relative;
 }
 
 .form-footer-p{
@@ -537,6 +538,10 @@ input, button{
     letter-spacing: 0.02em;
     color: #FFF;
     margin-bottom: 16px;
+}
+
+.form-footer-label{
+    /* position: relative; */
 }
 
 .form-footer-input{
@@ -555,8 +560,10 @@ input, button{
     padding-left: 16px;
     padding-right: 212px;
     font-size: 12px;
-    line-height: 1.5;
+    line-height: 2;
     letter-spacing: 0.04em;
+    background-color: transparent;
+    
 }
 
 .form-footer-input::placeholder{
@@ -569,7 +576,7 @@ input, button{
     align-items: center; 
     text-align: center;
     padding: 8px 24px;
-    gap: 16px;
+    /* gap: 16px; */
     border-radius: 4px;
     background-color: #4D5AE5;
     font-size: 16px;
@@ -580,7 +587,7 @@ input, button{
     min-width: 165px;
     height: 40px;
     cursor: pointer;
-    margin-left: 24px;
+    margin-left: 294px;
     font-family: "Roboto", sans-serif;
     border: none;
     position: absolute;
@@ -588,6 +595,7 @@ input, button{
 
 .form-footer-icon{
     fill: #ffffff;
+    margin-left: 16px;
 }
 
 /* ============== BACKDROP ============== */
